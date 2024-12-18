@@ -2,3 +2,26 @@ body {
     background-color: black;
     color: white;
 }
+/* 
+a parte abaixo do meu comentário
+é feito na ia do chatgpt
+*/
+body.corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Centraliza verticalmente */
+    align-items: center;      /* Centraliza horizontalmente */
+    min-height: 100vh;        /* Garante que a altura da tela seja preenchida */
+    margin: 0;                /* Remove a margem padrão do body */
+    text-align: center;       /* Centraliza o texto */
+}
+
+img {
+    max-width: 100%;          /* Faz com que a imagem não ultrapasse a largura da tela */
+    height: auto;             /* Ajusta a altura proporcionalmente */
+}
+hr {
+    width: 100%;               /* Controla a largura do <hr> */
+    border: 1px solid white;  /* Linha branca */
+    margin: 20px 0;           /* Adiciona espaço acima e abaixo do <hr> */
+}
